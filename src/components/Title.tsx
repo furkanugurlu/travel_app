@@ -1,14 +1,20 @@
-import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import React, {FC} from 'react';
+import {View, Text, StyleSheet, TextStyle} from 'react-native';
 
-const Title = (props: any) => {
-  return <Text style={styles.title}>{props.text}</Text>;
+interface TitleProspType {
+  title: string;
+  style?: TextStyle;
+}
+const Title: FC<TitleProspType> = ({title, style}) => {
+  return <Text style={[styles.title, style]}>{title}</Text>;
 };
 
 export default Title;
 
 const styles = StyleSheet.create({
   title: {
-    fontSize: 24,
+    fontSize: 32,
+    color: '#4681A3',
+    fontWeight: 'bold',
   },
 });
