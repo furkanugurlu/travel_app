@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "name": "Topkapı Sarayı",
+    "city": "İstanbul",
+    "country": "Türkiye",
+    "entry_price": "₺150",
+    "address": "Cankurtaran Mah. Babı Hümayun Cad. No: 1 Sultanahmet/Fatih",
+    "opening_time": "09:00",
+    "closing_time": "18:00",
+    "categories": ["Tarihi", "En çok ziyaret edilen", ""],
+    "images": [
+      "https://images.unsplash.com/photo-1647533459125-9ffc9b06ab0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRvcGthcCVDNCVCMSUyMHNhcmF5JUM0JUIxfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1597147873356-ab36fc52dd2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRvcGthcCVDNCVCMSUyMHNhcmF5JUM0JUIxfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1597147402121-880be86d66cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9wa2FwJUM0JUIxJTIwc2FyYXklQzQlQjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1568298458255-fcff20d22abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dG9wa2FwJUM0JUIxJTIwc2FyYXklQzQlQjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1597147445146-b214873fb7e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dG9wa2FwJUM0JUIxJTIwc2FyYXklQzQlQjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1597147413169-2fb4e458c1e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dG9wa2FwJUM0JUIxJTIwc2FyYXklQzQlQjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "coordinates": {
+      "lat": 41.013056,
+      "lon": 28.983889
+    }
+  },
+  {
+    "id": 2,
+    "name": "Pamukkale Travertenleri",
+    "city": "Denizli",
+    "country": "Türkiye",
+    "entry_price": "₺35",
+    "address": "Merkez, 20190 Pamukkale/Denizli",
+    "opening_time": "08:00",
+    "closing_time": "20:00",
+    "categories": ["Popüler", "Tavsiye edilen"],
+    "images": [
+      "https://media.istockphoto.com/id/474218629/tr/foto%C4%9Fraf/travertine-pools-at-ancient-hierapolis.webp?b=1&s=170667a&w=0&k=20&c=vvhhkPaMlEDp61atVDkKltYH6iJr6zsXMWJHkwaK_IA=",
+      "https://images.unsplash.com/photo-1595846415458-404defd93fb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBhbXVra2FsZSUyMHRyYXZlcnRlbmxlcml8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://media.istockphoto.com/id/179542990/tr/foto%C4%9Fraf/pamukkale-hierapolis.webp?b=1&s=170667a&w=0&k=20&c=qFSy0XjWJmOmaSWlv4KbWyO6u9B9zeWKufuWIZS8SeI=",
+      "https://media.istockphoto.com/id/539479634/tr/foto%C4%9Fraf/carbonate-travertines-the-natural-pools-during-sunset-pamukkale.webp?b=1&s=170667a&w=0&k=20&c=LhlK3shUofwYmM3bGyJAq4a_m6CukNShQCHGrPmECFM=",
+      "https://media.istockphoto.com/id/1407096713/tr/foto%C4%9Fraf/travertine-terrace-pamukkale.webp?b=1&s=170667a&w=0&k=20&c=KBL0R5MqsvRcyOlOKxXYZmACV2KriRP-CZrZZZbo5UI="
+    ],
+    "coordinates": {
+      "lat": 37.920496318,
+      "lon": 29.120999516
+    }
+  },
+  {
+    "id": 3,
+    "name": "Kelebekler Vadisi",
+    "city": "Muğla",
+    "country": "Türkiye",
+    "entry_price": "₺8",
+    "address": "Merkez, 20190 Pamukkale/Denizli",
+    "opening_time": "08:00",
+    "closing_time": "20:00",
+    "categories": ["Popüler", "Trend"],
+    "images": [
+      "https://images.unsplash.com/photo-1573552509237-82669d74c384?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmV0aGl5ZSUyMGtlbGViZWtsZXIlMjB2YWRpc2l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1641913385332-cbdf8740bad3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmV0aGl5ZSUyMGtlbGViZWtsZXIlMjB2YWRpc2l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1637672679396-4b0588811876?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZmV0aGl5ZSUyMGtlbGViZWtsZXIlMjB2YWRpc2l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1664376205509-9a183789ef6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZldGhpeWUlMjBrZWxlYmVrbGVyJTIwdmFkaXNpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1591536153001-b5d5ee536a4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZldGhpeWUlMjBrZWxlYmVrbGVyJTIwdmFkaXNpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "coordinates": {
+      "lat": 36.496389,
+      "lon": 29.132222
+    }
+  },
+  {
+    "id": 4,
+    "name": "Peri Bacaları",
+    "city": "Muğla",
+    "country": "Türkiye",
+    "entry_price": "₺8",
+    "address": "Merkez, 20190 Pamukkale/Denizli",
+    "opening_time": "08:00",
+    "closing_time": "20:00",
+    "categories": ["Popüler", "Trend"],
+    "images": [
+      "https://media.istockphoto.com/id/1343283848/tr/foto%C4%9Fraf/launching-of-air-balloons.webp?b=1&s=170667a&w=0&k=20&c=U5tzT8PJ2Ru1J-YwYhglR7VzICk7M6n4SFJAzv44bmw=",
+      "https://media.istockphoto.com/id/1189055904/tr/foto%C4%9Fraf/t%C3%BCrkiyede-kapadokyan%C4%B1n-g%C3%B6reme-kentinde-g%C3%BCn-bat%C4%B1m%C4%B1nda-s%C4%B1cak-hava-balonlar%C4%B1-ve-k%C4%B1rm%C4%B1z%C4%B1-vadi.webp?b=1&s=170667a&w=0&k=20&c=uPR8fyx-WAWijlcxPd2QnkB4EdEmJxvHtmdm3X6fTAM=",
+      "https://media.istockphoto.com/id/1638781275/tr/foto%C4%9Fraf/bryce-canyon-national-park-utah.webp?b=1&s=170667a&w=0&k=20&c=aRyDpjnkhhCeNIeSlTN9b_QMP5aPTrql6YxCW1XW8RU="
+    ],
+    "coordinates": {
+      "lat": 36.496389,
+      "lon": 29.132222
+    }
+  }
+]
