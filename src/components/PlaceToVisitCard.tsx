@@ -1,4 +1,4 @@
-import {View, Text, StyleSheet, Image} from 'react-native';
+import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
 import React, {FC} from 'react';
 import {SCREEN_WIDTH, scaleHeight, scaleWidth} from '../helpers/Measurement';
 
@@ -7,10 +7,12 @@ interface PlaceToVisitCardPropsType {
   title: string;
   subTitle: string;
   idx: number;
+  onPress: () => void;
 }
-const PlaceToVisitCard: FC<PlaceToVisitCardPropsType> = ({imageUrl, title, subTitle, idx}) => {
+const PlaceToVisitCard: FC<PlaceToVisitCardPropsType> = ({imageUrl, title, subTitle, idx, onPress}) => {
   return (
-    <View
+    <TouchableOpacity
+      onPress={onPress}
       style={[
         styles.card,
         {
@@ -26,7 +28,7 @@ const PlaceToVisitCard: FC<PlaceToVisitCardPropsType> = ({imageUrl, title, subTi
           <Text style={styles.subTitle}>{subTitle}</Text>
         </View>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 

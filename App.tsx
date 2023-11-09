@@ -1,12 +1,13 @@
 import React from 'react';
-import {View, Text, StyleSheet, SafeAreaView} from 'react-native';
-import Home from './src/screens/Home';
+import RootNavigation from './src/navigation/RootNavigation';
+import {View} from 'react-native';
+import {scaleHeight} from './src/helpers/Measurement';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView style={{flex: 1}}>
-      <Home />
-    </SafeAreaView>
+    <View style={{flex: 1, backgroundColor: 'white', paddingTop: scaleHeight(40)}}>
+      <RootNavigation />
+    </View>
   );
 }
 

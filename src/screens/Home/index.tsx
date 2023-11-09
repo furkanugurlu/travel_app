@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {FC, useEffect, useState} from 'react';
 import {View, Text, StyleSheet, ScrollView, FlatList} from 'react-native';
 import Title from '../../components/Title';
 import {scaleHeight} from '../../helpers/Measurement';
@@ -7,8 +7,12 @@ import PlaceToVisitCard from '../../components/PlaceToVisitCard';
 
 import placetovisitData from '../../data/placetovisit.json';
 import categoriesData from '../../data/categories.json';
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
+import {HomeStackParamList} from '../../navigation/RootNavigation';
 
-const Home = () => {
+interface HomePropsType extends NativeStackScreenProps<HomeStackParamList, 'Home'> {}
+
+const Home: FC<HomePropsType> = ({navigation}) => {
   const [selectedC, setSelectedC] = useState<string>('Tümü');
   const [data, setData] = useState<any[]>([]);
 
@@ -25,6 +29,10 @@ const Home = () => {
       setData(filteredData);
     }
   }, [selectedC]);
+
+  const goToDetailPage = (item: any) => {
+    navigation.navigate('Details', {item});
+  };
 
   return (
     <View style={styles.container}>
@@ -47,7 +55,9 @@ const Home = () => {
           </>
         }
         data={data}
-        renderItem={({item, index}) => <PlaceToVisitCard idx={index} key={item.id} imageUrl={item.images.length ? item.images[0] : null} title={item.name} subTitle={item.city} />}
+        renderItem={({item, index}) => (
+          <PlaceToVisitCard onPress={() => goToDetailPage(item)} idx={index} key={item.id} imageUrl={item.images.length ? item.images[0] : null} title={item.name} subTitle={item.city} />
+        )}
       />
     </View>
   );
@@ -58,6 +68,7 @@ export default Home;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: 'white',
   },
   subTitle: {
     fontSize: 20,

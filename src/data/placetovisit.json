@@ -10,9 +10,9 @@
     "closing_time": "18:00",
     "categories": ["Tarihi", "En çok ziyaret edilen", ""],
     "images": [
-      "https://images.unsplash.com/photo-1647533459125-9ffc9b06ab0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRvcGthcCVDNCVCMSUyMHNhcmF5JUM0JUIxfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1597147873356-ab36fc52dd2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRvcGthcCVDNCVCMSUyMHNhcmF5JUM0JUIxfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1597147402121-880be86d66cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9wa2FwJUM0JUIxJTIwc2FyYXklQzQlQjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1647533459125-9ffc9b06ab0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRvcGthcCVDNCVCMSUyMHNhcmF5JUM0JUIxfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1568298458255-fcff20d22abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dG9wa2FwJUM0JUIxJTIwc2FyYXklQzQlQjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1597147445146-b214873fb7e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dG9wa2FwJUM0JUIxJTIwc2FyYXklQzQlQjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       "https://images.unsplash.com/photo-1597147413169-2fb4e458c1e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dG9wa2FwJUM0JUIxJTIwc2FyYXklQzQlQjF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
@@ -69,10 +69,10 @@
   {
     "id": 4,
     "name": "Peri Bacaları",
-    "city": "Muğla",
+    "city": "Nevşehir",
     "country": "Türkiye",
     "entry_price": "₺8",
-    "address": "Merkez, 20190 Pamukkale/Denizli",
+    "address": "Kapadokya ,Ürdün, Nevşehir",
     "opening_time": "08:00",
     "closing_time": "20:00",
     "categories": ["Popüler", "Trend"],
